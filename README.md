@@ -109,6 +109,11 @@
     <td>Adiciona o repositório remoto no diretório local.</td>
   </tr>
   
+  <tr>
+    <td>git revert hash</td>
+    <td>Reverte a alteração.</td>
+  </tr>
+  
 </table>
 
 <p align="left">
