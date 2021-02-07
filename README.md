@@ -1,6 +1,6 @@
-<h2 align="center">
+<h3 align="center">
   <a href="https://git-scm.com/">Git</a> e <a href="https://github.com/">GitHub</a>: Controle e Compartilhe seu Código
-</h2>
+</h3>
 
 <table>
   
@@ -216,8 +216,8 @@
     <summary>.gitignore</summary>
       <br />
       <p align="left">
-        Arquivo: .gitignore <br />
-        Funciona para não monitorar arquivo(s). <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Arquivo</strong>: .gitignore <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Funciona para não monitorar arquivo(s). <br />
       </p>
 </details>
 
@@ -225,7 +225,7 @@
     <summary>Ramificações</summary>
       <br />
       <p align="justify">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branches ("ramos") são utilizados para desenvolver funcionalidades isoladas umas das outras. A branch master é a branch "padrão" quando você cria um repositório.<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branches ("ramos") são utilizados para desenvolver funcionalidades isoladas umas das outras. A branch master é a branch "padrão" quando você cria um repositório. <br />
         <br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;É interessante separar o desenvolvimento de funcionalidades em branches diferentes, para que as mudanças no código para uma não influencie no funcionamento de outra.
       </p>
@@ -233,9 +233,8 @@
 
 <details>
     <summary>Links</summary>
-      <p align="left">
-        <ul>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li><a href="https://git-school.github.io/visualizing-git/">Visualizing GIT</a></li>
-        </ul>
-      </p>
+      <br />
+      <ul>
+        <li><a href="https://git-school.github.io/visualizing-git/">Visualizing GIT</a></li>
+      </ul>
 </details>
