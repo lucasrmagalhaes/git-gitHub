@@ -200,15 +200,19 @@
   </tr>
   
   <tr>
-    <td>git tag -a v.0.1.0 "Lançando a primeira versão."</td>
+    <td>git tag -a versao-0.1.0 -m "Lançando a primeira versão."</td>
     <td>Cria um ponto que não pode ser mais modificado.</td>
   </tr>
   
   <tr>
-    <td>git push origin v.0.1.0</td>
-    <td>Subindo a versão.</td>
+    <td>git tag</td>
+    <td>Lista as versões.</td>
   </tr>
   
+  <tr>
+    <td>git push origin main versao-0.1.0</td>
+    <td>Subindo a versão.</td>
+  </tr>
   
 </table>
 
