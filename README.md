@@ -241,5 +241,6 @@
       <ul>
         <li><a href="https://git-school.github.io/visualizing-git/">Visualizing GIT</a></li>
         <li><a href="http://git-scm.com/book/en/v2">Git Book</a></li>
+        <li><a href="https://lab.github.com/">GitHub Learning Lab</a></li>
       </ul>
 </details>
