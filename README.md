@@ -214,6 +214,11 @@
     <td>Subindo a versão.</td>
   </tr>
   
+   <tr>
+    <td>git config --global init.defaultBranch main</td>
+    <td>Configurando o git para iniciar sempre com a branch main ao invés da master (git init). A partir da versão 2.28.</td>
+  </tr>
+  
 </table>
 
 <details>
