@@ -10,23 +10,23 @@
   </tr>
  
   <tr>
-    <td>git config --local user.name "Nome da pessoa"</td>
-    <td>Define o nome localmente da pessoa.</td>
+    <td>git config --local user.name "Seu nome"</td>
+    <td>Define o nome localmente.</td>
   </tr>
   
   <tr>
-    <td>git config --local user.email "Nome do e-mail"</td>
-    <td>Define o nome localmente do e-mail.</td>
+    <td>git config --local user.email "Seu e-mail"</td>
+    <td>Define o endereço de e-mail localmente.</td>
   </tr>
   
   <tr>
-    <td>git config --global user.name "Nome da pessoa"</td>
-    <td>Define o nome globalmente da pessoa.</td>
+    <td>git config --global user.name "Seu nome"</td>
+    <td>Define o nome globalmente.</td>
   </tr>
   
   <tr>
-    <td>git config --global user.email "Nome do e-mail"</td>
-    <td>Define o nome globalmente do e-mail.</td>
+    <td>git config --global user.email "Seu e-mail"</td>
+    <td>Define o endereço de e-mail globalmente.</td>
   </tr>
   
   <tr>
@@ -248,4 +248,12 @@
         <li><a href="http://git-scm.com/book/en/v2">Git Book</a></li>
         <li><a href="https://lab.github.com/">GitHub Learning Lab</a></li>
       </ul>
+</details>
+
+<details>
+  <summary>SSH</summary>
+  <br />
+  <ul>
+      <li><a href="https://docs.github.com/pt/github/authenticating-to-github/connecting-to-github-with-ssh">GitHub Docs - Conectar-se ao GitHub com SSH.</li>
+  </ul>
 </details>
