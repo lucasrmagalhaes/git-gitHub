@@ -105,8 +105,8 @@
   </tr>
   
   <tr>
-    <td>git push origin master</td>
-    <td>Envia os dados para o repositório remoto. Se utilizar git push -u origin master ficará salvo e na próxima vez rodar somente: git push.</td>
+    <td>git push origin main</td>
+    <td>Envia os dados para o repositório remoto. Se utilizar git push -u origin main ficará salvo e na próxima vez rodar somente: git push.</td>
   </tr>
   
   <tr>
