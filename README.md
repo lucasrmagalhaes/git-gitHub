@@ -135,6 +135,21 @@
   </tr>
   
   <tr>
+    <td>git branch -m novo-nome</td>
+    <td>Renomeia a branch, se estiver dentro dela.</td>
+  </tr>
+  
+  <tr>
+    <td>git branch -m nome-atual novo-nome</td>
+    <td>Renomeia a branch, dentro de outra branch.</td>
+  </tr>
+  
+  <tr>
+    <td>git branch -d nome-branch</td>
+    <td>Deleta a branch.</td>
+  </tr>
+  
+  <tr>
     <td>git merge nome-branch-secundaria</td>
     <td>Caso tenha commits fora da branch principal e ocorreu um BUG na branch principal. Acessar a branch principal, corrigir o erro e rodar o comando.</td>
   </tr>
@@ -165,23 +180,33 @@
   </tr>
   
   <tr>
+    <td>git stash save "mensagem"</td>
+    <td>Salva os dados modificados para depois com contexto.</td>
+  </tr>
+  
+  <tr>
     <td>git stash list</td>
     <td>Lista os estados salvos.</td>
   </tr>
   
   <tr>
-    <td>git stash apply 0</td>
+    <td>git stash clear</td>
+    <td>Limpa os estados.</td>
+  </tr>
+  
+  <tr>
+    <td>git stash apply numero-array</td>
     <td>Aplica as modificações.</td>
   </tr>
   
   <tr>
-    <td>git stash drop 0</td>
+    <td>git stash drop numero-array</td>
     <td>Remove as modificações.</td>
   </tr>
   
   <tr>
-    <td>git stash pop</td>
-    <td>Aplica e remove.</td>
+    <td>git stash pop numero-array</td>
+    <td>Aplica e remove do stash.</td>
   </tr>
 
   <tr>
