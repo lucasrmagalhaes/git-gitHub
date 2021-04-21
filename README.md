@@ -30,6 +30,26 @@
   </tr>
   
   <tr>
+    <td>git config --global --list</td>
+    <td>Lista as configurações globais.</td>
+  </tr>
+  
+  <tr>
+    <td>git config --global core.editor "code --wait"</td>
+    <td>Define o Visual Studio Code como editor padrão.</td>
+  </tr>
+  
+  <tr>
+    <td>git config --global core.editor "vim"</td>
+    <td>Define o vim como editor padrão.</td>
+  </tr>
+  
+  <tr>
+    <td>git config --global --unset core.editor</td>
+    <td>Volta para o editor padrão.</td>
+  </tr>
+  
+  <tr>
     <td>git init</td>
     <td>Cria um repositório Git.</td>
   </tr>
@@ -256,17 +276,7 @@
       <br />
       <p align="left">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Arquivo</strong>: .gitignore <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Funciona para não monitorar arquivo(s). <br />
-      </p>
-</details>
-
-<details>
-    <summary>Ramificações</summary>
-      <br />
-      <p align="justify">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Branches ("ramos") são utilizados para desenvolver funcionalidades isoladas umas das outras. A branch master é a branch "padrão" quando você cria um repositório. <br />
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;É interessante separar o desenvolvimento de funcionalidades em branches diferentes, para que as mudanças no código para uma não influencie no funcionamento de outra.
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Funciona para não monitorar arquivo(s) ou diretórios. <br />
       </p>
 </details>
 
@@ -277,13 +287,7 @@
         <li><a href="https://git-school.github.io/visualizing-git/">Visualizing GIT</a></li>
         <li><a href="http://git-scm.com/book/en/v2">Git Book</a></li>
         <li><a href="https://lab.github.com/">GitHub Learning Lab</a></li>
+        <li><a href="https://www.conventionalcommits.org/en/v1.0.0/">Convetional Commits</a></li>
+        <li><a href="https://docs.github.com/pt/github/authenticating-to-github/connecting-to-github-with-ssh">GitHub Docs - Conectar-se ao GitHub com SSH.</li>
       </ul>
-</details>
-
-<details>
-  <summary>SSH</summary>
-  <br />
-  <ul>
-      <li><a href="https://docs.github.com/pt/github/authenticating-to-github/connecting-to-github-with-ssh">GitHub Docs - Conectar-se ao GitHub com SSH.</li>
-  </ul>
 </details>
