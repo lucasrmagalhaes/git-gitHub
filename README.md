@@ -72,7 +72,12 @@
   <tr>
     <td><a href="https://devhints.io/git-log">git log cheatsheet</a></td>
     <td>Comandos para personalizar a busca de logs.</td>
-  </tr>  
+  </tr>
+  
+  <tr>
+    <td>gitk</td>
+    <td>Visualizador de histórico gráfico.</td>
+  </tr>
   
   <tr>
     <td>git init --bare</td>
