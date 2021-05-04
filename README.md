@@ -85,6 +85,11 @@
   </tr>
   
   <tr>
+    <td>git log --graph --oneline --all</td>
+    <td>Todos os logs super detalhados.</td>
+  </tr>
+   
+  <tr>
     <td>git log --help</td>
     <td>Ver algumas opções disponíveis.</td>
   </tr>
