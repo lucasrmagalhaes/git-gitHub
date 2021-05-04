@@ -145,12 +145,22 @@
   </tr>
   
   <tr>
+    <td>git branch nome-branch</td>
+    <td>Cria uma branch.</td>
+  </tr>
+  
+  <tr>
     <td>git branch</td>
     <td>Lista as branches.</td>
   </tr>
   
   <tr>
     <td>git checkout nome-branch</td>
+    <td>Muda de branch.</td>
+  </tr>
+  
+  <tr>
+    <td>git switch nome-branch</td>
     <td>Muda de branch.</td>
   </tr>
   
