@@ -210,6 +210,11 @@
   </tr>
   
   <tr>
+    <td>git reset HEAD~1</td>
+    <td>Desfaz o último commit mas as alterações nos arquivo permanece.</td>
+  </tr>
+  
+  <tr>
     <td>git revert nome-hash</td>
     <td>Remove as alterações no código do commit.</td>
   </tr>
