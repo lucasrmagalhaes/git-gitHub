@@ -211,7 +211,7 @@
   
   <tr>
     <td>git reset HEAD~1</td>
-    <td>Desfaz o último commit mas as alterações nos arquivo permanece.</td>
+    <td>Desfaz o último commit e não remove as alterações no arquivo.</td>
   </tr>
   
   <tr>
