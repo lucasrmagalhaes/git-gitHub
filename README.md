@@ -2,6 +2,24 @@
   <a href="https://git-scm.com/">Git</a> e <a href="https://github.com/">GitHub</a>: Controle e Compartilhe seu Código
 </h3>
 
+<p align="center">
+  <a href="https://github.com/lucasrmagalhaes/git-gitHub/issues">
+    <img src="https://img.shields.io/github/issues/lucasrmagalhaes/git-gitHub" /> 
+  </a>
+    
+  <a href="https://github.com/lucasrmagalhaes/git-gitHub/network/members">
+    <img src="https://img.shields.io/github/forks/lucasrmagalhaes/git-gitHub" /> 
+  </a>
+    
+  <a href="https://github.com/lucasrmagalhaes/git-gitHub/stargazers">
+    <img src="https://img.shields.io/github/stars/lucasrmagalhaes/git-gitHub" /> 
+  </a>
+  
+   <a href="https://github.com/lucasrmagalhaes/git-gitHub/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/lucasrmagalhaes/git-gitHub" /> 
+  </a>
+</p>
+
 <table>
   
   <tr>
