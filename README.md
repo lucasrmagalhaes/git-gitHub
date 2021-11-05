@@ -89,7 +89,12 @@
   
   <tr>
     <td>git commit -m "Mensagem"</td>
-    <td>Realiza o commit.</td>
+    <td>Realiza o commit com o título.</td>
+  </tr>
+  
+  <tr>
+    <td>git commit -m "Mensagem" -m "Descrição"</td>
+    <td>Realiza o commit com o título e descrição.</td>
   </tr>
   
   <tr>
