@@ -153,6 +153,16 @@
   </tr>
   
   <tr>
+    <td>git remote add origin https://github.com/usuario/projeto.git</td>
+    <td>Adiciona o repositório remoto no diretório local.</td>
+  </tr>
+  
+  <tr>
+    <td>git remote set-url origin https://github.com/usuario/projeto.git</td>
+    <td>Outra maneira de adicionar o repositório remoto no diretório local.</td>
+  </tr>
+  
+  <tr>
     <td>git clone url nome</td>
     <td>Baixa o repositório localmente. Nome é opcional caso queira definir um nome diferente do original.</td>
   </tr>
@@ -165,11 +175,6 @@
   <tr>
     <td>git pull</td>
     <td>Atualiza as informações do repositório local.</td>
-  </tr>
-  
-  <tr>
-    <td>GitHub: git remote add origin https://github.com/lucasrmagalhaes/projeto.git</td>
-    <td>Adiciona o repositório remoto no diretório local.</td>
   </tr>
   
   <tr>
