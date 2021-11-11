@@ -228,6 +228,11 @@
   </tr>
   
   <tr>
+    <td>git rebase -i</td>
+    <td>Deixa o usuário editar a lista de commits para liberar.</td>
+  </tr>
+  
+  <tr>
     <td>git checkout -- nome-arquivo</td>
     <td>Descarta alterações de em arquivo.</td>
   </tr>
