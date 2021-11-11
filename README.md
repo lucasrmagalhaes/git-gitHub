@@ -238,13 +238,13 @@
   </tr>
 
   <tr>
-    <td>git reset HEAD index.html</td>
+    <td>git reset HEAD nome-arquivo</td>
     <td>Desmarcar o arquivo para ser commitado.</td>
   </tr>
   
   <tr>
-    <td>git reset HEAD~1</td>
-    <td>Desfaz o último commit e não remove as alterações no arquivo.</td>
+    <td>git reset --soft HEAD^</td>
+    <td>Configura HEAD para o commit anterior e deixa as mudanças do commit desfeito no stage/index.</td>
   </tr>
   
   <tr>
