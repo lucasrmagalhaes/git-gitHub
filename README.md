@@ -322,6 +322,16 @@
     <td>Selecionar commit específico para trazer ao branch desejado.</td>
   </tr>
   
+  <tr>
+    <td>
+      git bisect start<br>
+      git bisect good commit<br>
+      git bisect bad commit<br>
+      git bisect reset
+    </td>
+    <td>Achar um commit que quebra o build do projeto. <br>Indica um commit que contém um estado bom do seu repositório (good) e um commit que contém um estado ruim do seu repositório (bad). Com isso o git vai realizando checkouts, seguindo uma busca binária, e você pode indicar se o estado é bom ou ruim. Ao final, o git lhe diz qual commit danificou o repositório.</td>
+  </tr>
+  
    <tr>
     <td>git config --global init.defaultBranch main</td>
     <td>Configurando o git para iniciar sempre com a branch main ao invés da master (git init). A partir da versão 2.28.</td>
