@@ -98,6 +98,11 @@
   </tr>
   
   <tr>
+    <td>git commit -a -m "Mensagem"</td>
+    <td>Adiciona todos os arquivos e realiza o commit.</td>
+  </tr>
+  
+  <tr>
     <td>git log --oneline</td>
     <td>Lista os logs em linhas de forma mais limpa.</td>
   </tr>
