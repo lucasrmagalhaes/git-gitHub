@@ -208,6 +208,11 @@
   </tr>
   
   <tr>
+    <td>git checkout -</td>
+    <td>Volta para a branch anterior sem escrever o nome.</td>
+  </tr>
+  
+  <tr>
     <td>git branch -m novo-nome</td>
     <td>Renomeia a branch, se estiver dentro dela.</td>
   </tr>
