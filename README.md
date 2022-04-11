@@ -84,7 +84,7 @@
   
   <tr>
     <td>git add .</td>
-    <td>Marcar todos os arquivos para serem salvos (commitados).</td>
+    <td>Coloca todos arquivos (novos, modificados e removidos) no index/stage. Usando o ponto, será adicionado ao stagging somente os arquivos a partir do diretório que você está, e os sub-diretórios deste.</td>
   </tr>
   
   <tr>
