@@ -310,6 +310,11 @@
   <tr>
     <td>git diff nome-commit..nome-commit</td>
     <td>Mostra as diferenças entre dois commits.</td>
+  </tr> 
+  
+  <tr>
+    <td>git rm -rf --cached nome-diretorio/</td>
+    <td>Remove o arquivo/diretório dos arquivos monitorados.</td>
   </tr>
   
   <tr>
@@ -344,7 +349,9 @@
       git bisect bad commit<br>
       git bisect reset
     </td>
-    <td>Achar um commit que quebra o build do projeto. <br>Indica um commit que contém um estado bom do seu repositório (good) e um commit que contém um estado ruim do seu repositório (bad). Com isso o git vai realizando checkouts, seguindo uma busca binária, e você pode indicar se o estado é bom ou ruim. Ao final, o git lhe diz qual commit danificou o repositório.</td>
+    <td>
+      Achar um commit que quebra o build do projeto. <br>Indica um commit que contém um estado bom do seu repositório (good) e um commit que contém um estado ruim do seu repositório (bad). Com isso o git vai realizando checkouts, seguindo uma busca binária, e você pode indicar se o estado é bom ou ruim. Ao final, o git lhe diz qual commit danificou o repositório.
+    </td>
   </tr>
   
    <tr>
