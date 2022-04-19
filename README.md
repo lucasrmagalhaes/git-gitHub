@@ -178,6 +178,16 @@
   </tr>
   
   <tr>
+    <td>git clone -b nome-branch repositorio-remoto-url</td>
+    <td>Baixa o repositório localmente em um branch específico.</td>
+  </tr>
+  
+  <tr>
+    <td>git clone --branch nome-branch repositorio-remoto-url</td>
+    <td>Outra maneira de baixar o repositório localmente em um branch específico.</td>
+  </tr>
+  
+  <tr>
     <td>git push origin main</td>
     <td>Envia os dados para o repositório remoto. Se utilizar git push -u origin main ficará salvo e na próxima vez rodar somente: git push.</td>
   </tr>
