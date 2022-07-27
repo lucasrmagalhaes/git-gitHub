@@ -238,7 +238,7 @@
   </tr>
   
   <tr>
-    <td>git branch -d nome-branch</td>
+    <td>git branch -D nome-branch</td>
     <td>Deleta a branch.</td>
   </tr>
   
