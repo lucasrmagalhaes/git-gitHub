@@ -258,6 +258,11 @@
   </tr>
   
   <tr>
+    <td>git rebase -i --root</td>
+    <td>Edita no terminal todos os commits. Possível alterar a ordem, combinar e etc.</td>
+  </tr>
+  
+  <tr>
     <td>git rebase nome-branch-secundaria</td>
     <td>O merge junta os trabalhos e gera um merge commit. O rebase aplica os commits de outra branch na branch atual.</td>
   </tr>
