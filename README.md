@@ -403,6 +403,21 @@
     <td>git rm -r --cached</td>
     <td>Limpando o cache.</td>
   </tr>
+
+   <tr>
+    <td>git commit --amend</td>
+    <td>Altera e adiciona as novas modificações no último commit com a mensagem alterada.</td>
+  </tr>
+
+   <tr>
+    <td>git commit -am 'Nova messagem de commit</td>
+    <td>Altera e adiciona as novas modificações no último commit com a mensagem alterada.</td>
+  </tr>
+  
+   <tr>
+    <td>git commit -amend --no-edit</td>
+    <td>Altera e adiciona as novas modificações no último commit sem alterar a mensagem do commit.</td>
+  </tr>
 </table>
 
 <details>
