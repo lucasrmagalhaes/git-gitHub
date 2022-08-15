@@ -253,8 +253,13 @@
   </tr>
   
   <tr>
+    <td>git branch -d nome-branch</td>
+    <td>Deleta a branch somente sem conflitos.</td>
+  </tr>
+
+  <tr>
     <td>git branch -D nome-branch</td>
-    <td>Deleta a branch.</td>
+    <td>Deleta a branch com ou sem conflitos.</td>
   </tr>
   
   <tr>
