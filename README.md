@@ -416,7 +416,7 @@
   
    <tr>
     <td>git commit -amend --no-edit</td>
-    <td>Altera e adiciona as novas modificações no último commit sem alterar a mensagem do commit.</td>
+    <td>Altera e adiciona as novas modificações no último commit sem alterar a mensagem.</td>
   </tr>
 </table>
 
