@@ -98,6 +98,11 @@
   </tr>
   
   <tr>
+    <td>git rm nome-arquivo</td>
+    <td>Deleta o arquivo.</td>
+  </tr>
+
+  <tr>
     <td>git commit -m "Mensagem"</td>
     <td>Realiza o commit com o título.</td>
   </tr>
