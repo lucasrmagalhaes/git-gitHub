@@ -433,6 +433,21 @@
     <td>git commit -amend --no-edit</td>
     <td>Altera e adiciona as novas modificações no último commit sem alterar a mensagem.</td>
   </tr>
+  
+  <tr>
+    <td>git clean -n</td>
+    <td>Lista arquivos a serem removidos.</td>
+  </tr>
+  
+   <tr>
+    <td>git clean -dn</td>
+    <td>Lista arquivo e diretórios a serem removidos.</td>
+  </tr>
+  
+   <tr>
+    <td>git clean -df</td>
+    <td>Remove arquivos e diretórios.</td>
+  </tr>
 </table>
 
 <details>
