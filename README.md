@@ -91,6 +91,11 @@
     <td>git add --all</td>
     <td>Coloca todos arquivos (novos, modificados e removidos) no index/stage. Adiciona ao staging arquivos desde a raiz do repositório passando por todos os subdiretórios, e aqui está a diferença, não importa se você está na raiz ou no sub-diretório.</td>
   </tr>
+
+  <tr>
+    <td>git mv nome-arquivo novo-nome-arquivo</td>
+    <td>Renomeia o arquivo.</td>
+  </tr>
   
   <tr>
     <td>git commit -m "Mensagem"</td>
