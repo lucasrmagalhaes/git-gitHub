@@ -383,7 +383,11 @@
     <td>git config --global init.defaultBranch main</td>
     <td>Configurando o git para iniciar sempre com a branch main ao invés da master (git init). A partir da versão 2.28.</td>
   </tr>
-  
+
+   <tr>
+    <td>git config --global core.excludesFile nome-arquivo</td>
+    <td>Arquivo global ignorado.</td>
+  </tr>
 </table>
 
 <details>
