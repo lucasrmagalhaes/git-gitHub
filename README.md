@@ -229,7 +229,12 @@
   
   <tr>
     <td>git checkout -b nome-branch</td>
-    <td>Cria e entra na branch.</td>
+    <td>Copia e entra na branch.</td>
+  </tr>
+  
+  <tr>
+    <td>git switch -c nome-branch</td>
+    <td>Copia e entra na branch.</td>
   </tr>
   
   <tr>
