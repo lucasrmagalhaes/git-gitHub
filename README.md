@@ -385,8 +385,13 @@
   </tr>
 
    <tr>
-    <td>git config --global core.excludesFile nome-arquivo</td>
+    <td>git config --global core.excludesfile nome-arquivo</td>
     <td>Arquivo global ignorado.</td>
+  </tr>
+
+   <tr>
+    <td>git rm -r --cached</td>
+    <td>Limpando o cache.</td>
   </tr>
 </table>
 
