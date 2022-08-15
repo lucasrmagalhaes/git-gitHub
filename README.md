@@ -259,7 +259,22 @@
   
   <tr>
     <td>git checkout -- nome-arquivo</td>
-    <td>Descarta alterações de em arquivo.</td>
+    <td>Descarta alterações do arquivo.</td>
+  </tr>
+  
+  <tr>
+    <td>git restore nome-arquivo</td>
+    <td>Descarta alterações do arquivo.</td>
+  </tr>
+  
+  <tr>
+    <td>git checkout .</td>
+    <td>Descarta alterações de todos os arquivos.</td>
+  </tr>
+
+  <tr>
+    <td>git restore .</td>
+    <td>Descarta alterações de todos os arquivos.</td>
   </tr>
 
   <tr>
