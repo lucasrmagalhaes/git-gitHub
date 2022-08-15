@@ -410,7 +410,7 @@
   </tr>
 
    <tr>
-    <td>git commit -am 'Nova messagem de commit</td>
+    <td>git commit -am "Nova messagem de commit"</td>
     <td>Altera e adiciona as novas modificações no último commit com a mensagem alterada.</td>
   </tr>
   
