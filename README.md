@@ -213,13 +213,18 @@
   </tr>
   
   <tr>
-    <td>git branch nome-branch</td>
-    <td>Cria uma branch.</td>
+    <td>git branch</td>
+    <td>Lista as branches locais.</td>
   </tr>
   
   <tr>
-    <td>git branch</td>
-    <td>Lista as branches.</td>
+    <td>git branch -a</td>
+    <td>Lista as branches locais e remotas.</td>
+  </tr>
+  
+  <tr>
+    <td>git branch nome-branch</td>
+    <td>Cria uma branch.</td>
   </tr>
   
   <tr>
