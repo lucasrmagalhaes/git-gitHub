@@ -208,6 +208,11 @@
   </tr>
   
   <tr>
+    <td>git fetch</td>
+    <td>Para obter informações sobre um repositório remoto, mas não alterar nenhuma branch.</td>
+  </tr>
+  
+  <tr>
     <td>git pull</td>
     <td>Atualiza as informações do repositório local.</td>
   </tr>
