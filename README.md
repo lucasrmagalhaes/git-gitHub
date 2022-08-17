@@ -163,8 +163,13 @@
   </tr>
 
   <tr>
-    <td>git remote add nome-repositorio url ou caminho-repositorio</td>
-    <td>Desta forma teremos um link do repositório local com o repositório remoto, que chamamos de nome-repositorio, que está armazenado em caminho/para/o/repositorio.</td>
+    <td>git remote add origin https://github.com/usuario/projeto.git</td>
+    <td>Adiciona o repositório remoto no diretório local.</td>
+  </tr>
+  
+  <tr>
+    <td>git remote set-url origin https://github.com/usuario/projeto.git</td>
+    <td>Outra maneira de adicionar o repositório remoto no diretório local.</td>
   </tr>
   
   <tr>
@@ -175,16 +180,6 @@
   <tr>
     <td>git remote rename nome-atual novo-nome</td>
     <td>Renomeia o remote.</td>
-  </tr>
-  
-  <tr>
-    <td>git remote add origin https://github.com/usuario/projeto.git</td>
-    <td>Adiciona o repositório remoto no diretório local.</td>
-  </tr>
-  
-  <tr>
-    <td>git remote set-url origin https://github.com/usuario/projeto.git</td>
-    <td>Outra maneira de adicionar o repositório remoto no diretório local.</td>
   </tr>
   
   <tr>
