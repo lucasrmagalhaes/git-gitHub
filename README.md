@@ -153,11 +153,6 @@
   </tr>
   
   <tr>
-    <td>git remote add nome-repositorio caminho/para/o/repositorio</td>
-    <td>Desta forma teremos um link do repositório local com o repositório remoto, que chamamos de nome-repositorio, que está armazenado em caminho/para/o/repositorio.</td>
-  </tr>
-  
-  <tr>
     <td>git remote</td>
     <td>Lista os remotes.</td>
   </tr>
@@ -166,10 +161,20 @@
     <td>git remote -v</td>
     <td>Lista os nomes e endereços.</td>
   </tr>
+
+  <tr>
+    <td>git remote add nome-repositorio url ou caminho-repositorio</td>
+    <td>Desta forma teremos um link do repositório local com o repositório remoto, que chamamos de nome-repositorio, que está armazenado em caminho/para/o/repositorio.</td>
+  </tr>
+  
+  <tr>
+    <td>git remote remove nome-remote</td>
+    <td>Remove o remote.</td>
+  </tr>
   
   <tr>
     <td>git remote rename nome-atual novo-nome</td>
-    <td>Renomea o remote.</td>
+    <td>Renomeia o remote.</td>
   </tr>
   
   <tr>
