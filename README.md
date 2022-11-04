@@ -69,7 +69,7 @@
   
   <tr>
     <td>git init</td>
-    <td>Cria um repositório Git.</td>
+    <td>Inicializa um repositório Git local.</td>
   </tr>
   
   <tr>
@@ -297,6 +297,21 @@
     <td>Deixa o usuário editar a lista de commits para liberar.</td>
   </tr>
   
+   <tr>
+    <td>git clean -n</td>
+    <td>Lista arquivos a serem removidos.</td>
+  </tr>
+  
+   <tr>
+    <td>git clean -dn</td>
+    <td>Lista arquivos e diretórios a serem removidos.</td>
+  </tr>
+  
+   <tr>
+    <td>git clean -df</td>
+    <td>Remove arquivos e diretórios.</td>
+  </tr>
+  
   <tr>
     <td>git checkout -- nome-arquivo</td>
     <td>Descarta alterações do arquivo.</td>
@@ -452,21 +467,6 @@
    <tr>
     <td>git commit -amend --no-edit</td>
     <td>Altera e adiciona as novas modificações no último commit sem alterar a mensagem.</td>
-  </tr>
-  
-  <tr>
-    <td>git clean -n</td>
-    <td>Lista arquivos a serem removidos.</td>
-  </tr>
-  
-   <tr>
-    <td>git clean -dn</td>
-    <td>Lista arquivo e diretórios a serem removidos.</td>
-  </tr>
-  
-   <tr>
-    <td>git clean -df</td>
-    <td>Remove arquivos e diretórios.</td>
   </tr>
 </table>
 
