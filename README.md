@@ -328,6 +328,11 @@
   </tr>
   
   <tr>
+    <td>git reset --hard HEAD^</td>
+    <td>Configura HEAD para o commit anterior e remove as mudanças do commit desfeito.</td>
+  </tr>
+  
+  <tr>
     <td>git revert nome-hash</td>
     <td>Remove as alterações no código do commit.</td>
   </tr>
