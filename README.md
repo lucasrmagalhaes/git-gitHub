@@ -468,6 +468,11 @@
     <td><code>git commit -amend --no-edit</code></td>
     <td>Altera e adiciona as novas modificações no último commit sem alterar a mensagem.</td>
   </tr>
+  
+   <tr>
+    <td><code>git gc --prune=now</code></td>
+    <td>Git pull fails "unable to resolve reference" or "unable to update local ref".</td>
+  </tr>
 </table>
 
 <details>
