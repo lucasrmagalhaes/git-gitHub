@@ -293,6 +293,11 @@
   </tr>
   
   <tr>
+    <td><code>git merge --abort</code></td>
+    <td>Cancelar um merge.</td>
+  </tr>
+  
+  <tr>
     <td><code>git rebase -i --root</code></td>
     <td>Edita no terminal todos os commits. Possível alterar a ordem, combinar e etc.</td>
   </tr>
