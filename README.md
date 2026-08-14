@@ -261,8 +261,10 @@ Referência completa:
 | `git stash push -m "mensagem"` | Guarda as modificações com uma mensagem de contexto (substitui o antigo `git stash save`). |
 | `git stash -u` | Guarda também os arquivos não rastreados (novos), que o stash normal deixa para trás. |
 | `git stash list` | Lista os stashes salvos. |
+| `git stash show -p stash@{n}` | Mostra o diff do stash indicado (sem o `-p`, mostra apenas o resumo). |
 | `git stash apply stash@{n}` | Aplica as modificações do stash indicado, mantendo-o na lista. |
 | `git stash pop` | Aplica o stash mais recente e o remove da lista. |
+| `git stash branch nome-branch stash@{n}` | Cria uma branch a partir do stash e já o aplica nela — útil quando aplicar direto na branch atual geraria conflito. |
 | `git stash drop stash@{n}` | Remove o stash indicado da lista. |
 | `git stash clear` | Remove todos os stashes. |
 
@@ -274,8 +276,12 @@ Referência completa:
 | --- | --- |
 | `git tag -a v0.1.0 -m "Lançando a primeira versão."` | Cria uma tag anotada — um ponto fixo no histórico que não deve mais ser modificado. |
 | `git tag` | Lista as tags. |
+| `git tag -l "v1.*"` | Lista apenas as tags que casam com o padrão. |
+| `git show v0.1.0` | Mostra os detalhes da tag e do commit apontado por ela. |
 | `git push origin v0.1.0` | Envia a tag para o repositório remoto. |
 | `git push origin --tags` | Envia todas as tags para o repositório remoto. |
+| `git tag -d v0.1.0` | Deleta a tag localmente. |
+| `git push origin --delete v0.1.0` | Deleta a tag no repositório remoto. |
 
 ## Fork e Pull Request
 
@@ -319,6 +325,7 @@ Ao mesclar um Pull Request, o GitHub oferece três estratégias:
 | --- | --- |
 | `git bisect start`<br>`git bisect good nome-hash`<br>`git bisect bad nome-hash`<br>`git bisect reset` | Encontra o commit que quebrou o projeto por busca binária: você indica um commit bom (`good`) e um ruim (`bad`), o Git faz checkouts intermediários e você vai classificando cada um até ele apontar o commit culpado. |
 | `git gc --prune=now` | Otimiza o repositório removendo objetos soltos. Resolve erros como `unable to resolve reference` ou `unable to update local ref` no pull (veja também `git fetch --prune`). |
+| `git worktree add ../nome-pasta nome-branch` | Cria uma segunda working tree do mesmo repositório em outra pasta — permite trabalhar em duas branches ao mesmo tempo, sem stash. Liste com `git worktree list` e remova com `git worktree remove ../nome-pasta`. |
 
 ## .gitignore
 
@@ -333,9 +340,12 @@ dist/
 
 > Se o arquivo já estava sendo rastreado antes de entrar no `.gitignore`, use `git rm -r --cached nome-arquivo` para removê-lo do controle do Git.
 
+> 💡 O repositório [github/gitignore](https://github.com/github/gitignore) reúne modelos prontos de `.gitignore` para cada linguagem e ferramenta.
+
 ## Links úteis
 
 - [Visualizing Git](https://git-school.github.io/visualizing-git/) — simulador visual de comandos Git.
+- [Learn Git Branching](https://learngitbranching.js.org/?locale=pt_BR) — tutorial interativo de branches, merge e rebase, em português.
 - [Pro Git Book](https://git-scm.com/book/en/v2) — livro oficial, gratuito e completo.
 - [GitHub Skills](https://skills.github.com/) — cursos interativos oficiais do GitHub.
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) — convenção para mensagens de commit.
